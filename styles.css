@@ -1,0 +1,57 @@
+* {
+   font-family: "Kanit", sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.container  {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #E1F5FE;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    width: 100px;
+}
+
+input.form, textarea {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    border: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #2979FF;
+    color: white;
+}
+
+.form-gender {
+    width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+}
